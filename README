@@ -4,7 +4,7 @@ This Go application implements a simple multiple-choice test engine with feature
 
 ## Functionality
 
-### 1. Ability to load a test from a file
+### 1. Ability to Load a Test from a File
 
 The application allows loading a test from a JSON file using the `LoadTestFromFile` function in `testengine/loader.go`.
 
@@ -30,11 +30,12 @@ Scoring is handled by the `TestEngine` struct in `testengine/engine.go`, which k
 
 1. Install dependencies:
 
-```bash
-go mod download
+   ```bash
+   go mod download
 
-Run the application:
- go run .\cmd\
 
-Access the API endpoint:
-curl -X POST http://localhost:8080/start-test -d '{"name": "John", "email": "john@example.com"}'
+2. Run the application:
+     go run .\cmd\
+
+3. Access the API endpoint:
+    curl -X POST http://localhost:8080/start-test -d '{"name": "John", "email": "john@example.com"}'

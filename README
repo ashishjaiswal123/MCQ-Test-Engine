@@ -39,3 +39,4 @@ Scoring is handled by the `TestEngine` struct in `testengine/engine.go`, which k
 
 3. Access the API endpoint:
     curl -X POST http://localhost:8080/start-test -d '{"name": "John", "email": "john@example.com"}'
+    Then in the terminal, where Go application running there you can start answering questions

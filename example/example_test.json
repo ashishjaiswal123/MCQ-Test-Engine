@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "choices": ["Berlin", "Paris", "Madrid", "Rome"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "choices": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the largest mammal?",
+      "choices": ["Elephant", "Giraffe","Blue Whale", "Lion"],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "In which year did the Titanic sink?",
+      "choices": ["1905", "1920", "1931","1912"],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "choices": ["Oxygen", "Gold", "Iron", "Silver"],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "choices": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the currency of Brazil?",
+      "choices": ["Euro", "Pound Sterling", "Dollar", "Real"],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Which is the longest river in the world?",
+      "choices": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+      "correctAnswer": "A"
+    }
+  ]
+}

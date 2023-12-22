@@ -58,6 +58,8 @@ func (engine *TestEngine) RunTestEngine(c *gin.Context) {
 		Score:     engine.UserScore,
 		StartTime: user.StartTime,
 		EndTime:   engine.CurrentTime,
+		CreatedAt: time.Now(),
+		UpdatedAt: time.Now(),
 	}
 
 	if err := database.DB.Create(&dbUser).Error; err != nil {
